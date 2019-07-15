@@ -1,19 +1,21 @@
-public class Farmer extends Player{
-//variables
+public class Warrior extends Player{
+    //variables
     private int strength;
     private int health;
     private int stamina;
     private int speed;
     private int attackPower;
-//contructor
-    public Farmer(int strength, int health, int stamina, int speed, int attackPower){
+    private int shieldStrength;
+    //constructor
+    public Warrior(int strength, int health, int stamina, int speed, int attackPower, int shieldStrength){
         this.strength = strength;
         this.health = health;
         this.stamina = stamina;
         this.speed = speed;
         this.attackPower = attackPower;
+        this.shieldStrength = shieldStrength;
     }
-    //getter and setters
+    //getters and setters
     public int getHealth() {
         return health;
     }
@@ -54,23 +56,17 @@ public class Farmer extends Player{
         this.attackPower = attackPower;
     }
 
+    public int getShieldStrength() {
+        return shieldStrength;
+    }
+
+    public void setShieldStrength(int shieldStrength) {
+        this.shieldStrength = shieldStrength;
+    }
     //methods
     public void run() {
 
         decreaseStamina();
-
-    }
-    public void plow(){
-
-        setStrength(strength - 5);
-        decreaseStamina();
-        decreaseHealth();
-
-    }
-    public void harvest(){
-
-        decreaseStamina();
-
     }
     public void attack(){
 
@@ -97,6 +93,4 @@ public class Farmer extends Player{
         setStamina(stamina - 10);
         return this.stamina;
     }
-
-
 }
