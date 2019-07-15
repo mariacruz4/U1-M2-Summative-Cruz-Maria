@@ -5,7 +5,7 @@ public class Constable extends Player {
     private int stamina;
     private int speed;
     private int attackPower;
-    private String jurisdiction;
+    private boolean jurisdiction;
     //constructor
     public Constable(int strength, int health, int stamina, int speed, int attackPower){
         this.strength = strength;
@@ -55,11 +55,11 @@ public class Constable extends Player {
         this.attackPower = attackPower;
     }
 
-    public String getJurisdiction() {
+    public boolean getJurisdiction() {
         return jurisdiction;
     }
 
-    public void setJurisdiction(String jurisdiction) {
+    public void setJurisdiction(boolean jurisdiction) {
         this.jurisdiction = jurisdiction;
     }
     //methods

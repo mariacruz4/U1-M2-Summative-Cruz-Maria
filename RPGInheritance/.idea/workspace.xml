@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4b36159-7dc1-4671-818c-864e3651085e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../CarInventory/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarInventory/src/main/java/CarInventory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CarInventory/src/main/java/CarInventoryMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Constable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Warrior.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CarInventory/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CarInventory/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Farmer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Farmer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Constable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Constable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Warrior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Warrior.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4913">
-              <caret line="289" column="65" selection-start-line="289" selection-start-column="65" selection-end-line="289" selection-end-column="65" />
+            <state relative-caret-position="-1353">
+              <caret line="195" column="58" selection-start-line="195" selection-start-column="58" selection-end-line="195" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -43,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/Farmer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -51,34 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Constable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-              <folding>
-                <element signature="e#474#475#0" expanded="true" />
-                <element signature="e#503#504#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#612#613#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#688#689#0" expanded="true" />
-                <element signature="e#728#729#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#927#928#0" expanded="true" />
-                <element signature="e#966#967#0" expanded="true" />
-                <element signature="e#1000#1001#0" expanded="true" />
-                <element signature="e#1035#1036#0" expanded="true" />
-                <element signature="e#1069#1070#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
-                <element signature="e#1205#1206#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1296#1297#0" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="85">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -86,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Warrior.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255">
-              <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+            <state>
+              <caret selection-end-line="103" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -108,14 +71,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Enemy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Constable.java" />
         <option value="$PROJECT_DIR$/src/main/java/Farmer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Warrior.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Constable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Player.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="4" />
     <option name="width" value="701" />
@@ -206,7 +169,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5311077" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -245,57 +208,31 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Enemy.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Farmer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Warrior.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        <state>
+          <caret selection-end-line="103" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Constable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding>
-            <element signature="e#474#475#0" expanded="true" />
-            <element signature="e#503#504#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#688#689#0" expanded="true" />
-            <element signature="e#728#729#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#927#928#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1000#1001#0" expanded="true" />
-            <element signature="e#1035#1036#0" expanded="true" />
-            <element signature="e#1069#1070#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-            <element signature="e#1205#1206#0" expanded="true" />
-            <element signature="e#1240#1241#0" expanded="true" />
-            <element signature="e#1296#1297#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Farmer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="85">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4913">
-          <caret line="289" column="65" selection-start-line="289" selection-start-column="65" selection-end-line="289" selection-end-column="65" />
+        <state relative-caret-position="-1353">
+          <caret line="195" column="58" selection-start-line="195" selection-start-column="58" selection-end-line="195" selection-end-column="58" />
         </state>
       </provider>
     </entry>

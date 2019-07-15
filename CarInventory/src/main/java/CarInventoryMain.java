@@ -14,51 +14,59 @@ public class CarInventoryMain {
         //prompt user for input
         Scanner scanner = new Scanner(System.in);
         //ask user for car info
-        System.out.println("Would you like to add a car? (yes or no)");
-        addCar = scanner.nextLine();
-        //if loop ensuring that the user has said yes to adding a car
-        if (addCar.equals("yes")) {
-            //while loop so the loop continues if the user says yes to adding another car
-            while (addCar.equals("yes")) {
-                //creating new car
-                CarInventory car = new CarInventory();
-                //asking for id
-                System.out.println("Enter car Id: ");
-                car.setCarId(scanner.nextInt());
-                //asking for make
-                System.out.println("Enter make: ");
-                car.setMake(scanner.next());
-                //asking for model
-                System.out.println("Enter model: ");
-                car.setModel(scanner.next());
-                //asking for year
-                System.out.println("Enter year: ");
-                car.setYear(scanner.nextInt());
-                //asking for color
-                System.out.println("Enter color: ");
-                car.setColor(scanner.next());
-                //asking for miles
-                System.out.println("Enter miles: ");
-                car.setMiles(scanner.nextInt());
-                //adding new car to car list
-                cars.add(car);
-                //asking the user if they would like to create another car and if yes they will go through the loop again
-                System.out.println("Would you like to add another car?");
-                addCar = scanner.next();
-            }
-            //if initial response is no, user will recieve message
-        } else if (addCar.equals("no")) {
-
-            System.out.println("Ok, have a nice day!");
-            return;
-            //if not a valid input, ask the user to try again
-        }else if(!addCar.equals("yes")){
-            System.out.println("That is not a valid input. Try again.");
             System.out.println("Would you like to add a car? (yes or no)");
             addCar = scanner.nextLine();
-            System.out.println();
+            //if loop ensuring that the user has said yes to adding a car
+            if (addCar.equals("yes")) {
+                //while loop so the loop continues if the user says yes to adding another car
+                while (addCar.equals("yes")) {
+                    //creating new car
+                    CarInventory car = new CarInventory();
+                    //asking for id
+                    System.out.println("Enter car Id: ");
+                    car.setCarId(scanner.nextInt());
+                    //asking for make
+                    System.out.println("Enter make: ");
+                    car.setMake(scanner.next());
+                    //asking for model
+                    System.out.println("Enter model: ");
+                    car.setModel(scanner.next());
+                    //asking for year
+                    //do-while to make sure years are within range
+                    do {
+                        System.out.println("Enter year (Must be between 1920 and 2019): ");
+                        car.setYear(scanner.nextInt());
+                    }while(car.getYear() < 1920 || car.getYear() > 2019);
 
-        }
+                    //asking for color
+                    System.out.println("Enter color: ");
+                    car.setColor(scanner.next());
+                    //asking for miles
+                    //do-while to make sure the miles are within range
+                    do {
+                        System.out.println("Enter miles (Must be between 0 and 300000 miles: ");
+                        car.setMiles(scanner.nextInt());
+                    }while(car.getMiles() < 0 || car.getMiles() > 300000);
+                    //adding new car to car list
+                    cars.add(car);
+                    //asking the user if they would like to create another car and if yes they will go through the loop again
+                    System.out.println("Would you like to add another car?");
+                    addCar = scanner.next();
+                }
+                //if initial response is no, user will recieve message
+            } else if (addCar.equals("no")) {
+
+                System.out.println("Ok, have a nice day!");
+                return;
+                //if not a valid input, ask the user to try again
+            } else if (!addCar.equals("yes") || !addCar.equals("no")) {
+                System.out.println("That is not a valid input. Try again.");
+                System.out.println("Would you like to add a car? (yes or no)");
+                addCar = scanner.nextLine();
+                System.out.println();
+                return;
+            }
+
         //if user says no to adding another car, they can remove, search, or view their cars
         if (addCar.equals("no")) {
 

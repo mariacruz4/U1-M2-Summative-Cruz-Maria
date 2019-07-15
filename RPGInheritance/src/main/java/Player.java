@@ -159,14 +159,22 @@ public class Player {
                     } else if (action.equals("arrest")) {
                         //call arrest method
                         constable.arrest();
-                        //cause damage to enemy health
-                        int damage = constable.getAttackPower();
-                        enemyHealth -= damage;
-                        //let user know what happened
-                        System.out.println("You have arrested the monster.");
-                        System.out.println("He escaped.");
-                        System.out.println("----------------------------------------------------------");
-                        System.out.println("The monsters health is " + enemyHealth);
+
+                        constable.setJurisdiction(true || false);
+                        if (constable.getJurisdiction() == true) {
+                            //cause damage to enemy health
+                            int damage = constable.getAttackPower();
+                            enemyHealth -= damage;
+
+                            //let user know what happened
+                            System.out.println("You have arrested the monster.");
+                            System.out.println("But he escaped.");
+                            System.out.println("----------------------------------------------------------");
+                            System.out.println("The monsters health is " + enemyHealth);
+                        }else{
+                            System.out.println("You were unable to arrest the monster.");
+                        }
+
                         //if user enters attack
                     } else if (action.equals("attack")) {
                         //call attack method
@@ -185,8 +193,8 @@ public class Player {
                             System.out.println("You have taken too much damage. Game over.");
                             break;
                         }
-                        //if user's stamina is less than 1
-                        if (constable.getStamina() < 1) {
+                        //if user's stamina is less than 0
+                        if (constable.getStamina() < 0) {
                             //end game
                             System.out.println("You do not have enough energy to continue. Game over.");
                             break;
